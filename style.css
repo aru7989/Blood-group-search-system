@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffe6e6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    background-color: #d62828;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+p {
+    color: #333;
+    font-size: 18px;
+}
+
+/* Search Box */
+.container {
+    background-color: white;
+    width: 350px;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px gray;
+}
+
+h3 {
+    color: #c62828;
+}
+
+/* Input and Select */
+input, select {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Search Button */
+button {
+    background-color: #d62828;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: darkred;
+}
+
+/* Result */
+#result {
+    color: green;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    background-color: #d62828;
+    color: white;
+    padding: 15px;
+    margin-top: 30px;
+}

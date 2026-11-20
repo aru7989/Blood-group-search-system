@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blood Group Search</title>
+    <link rel="stylesheet"
+href="style.css">
+</head>
+<body style="text-align:center; background-color:lightpink;">
+
+    <h1>🩸 Blood Group Search System</h1>
+    <p>Donate Blood, Save Lives</p>
+
+    <h3>Search Blood Donor</h3>
+
+    <label>Select Blood Group:</label>
+    <select id="blood">
+        <option>A+</option>
+        <option>A-</option>
+        <option>B+</option>
+        <option>B-</option>
+        <option>AB+</option>
+        <option>AB-</option>
+        <option>O+</option>
+        <option>O-</option>
+    </select>
+
+    <br><br>
+
+    <label>Enter Location:</label>
+    <input type="text" id="location" placeholder="Enter city">
+
+    <br><br>
+
+    <button onclick="searchDonor()">Search</button>
+
+    <h3 id="result"></h3>
+
+    <script>
+        function searchDonor() {
+            let blood = document.getElementById("blood").value;
+            let location = document.getElementById("location").value;
+
+            document.getElementById("result").innerHTML =
+            "Blood Group: " + blood +
+            "<br>Location: " + location;
+        }
+    </script>
+
+</body>
+</html>
